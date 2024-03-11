@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  webapi:
+    build: .
+    ports:
+      - "8080:5000"
+    environment:
+      - FLASK_APP=api.py 
+      - FLASK_ENV=development
+    volumes:
+      - .:/app

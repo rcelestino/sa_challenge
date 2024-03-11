@@ -57,6 +57,4 @@ This will start the API server, binding it to the port 8080 by default. If this 
 - **Note 1**: you can use and click in the urls/validate_wvkeyid response field of the generate token api
 - **Note 2**: it is just parsing the mpd xml to search cenc_pssh fields, it is not parsing the binary mp4 bmff format etc.
 
-### Considerations
 
-If you want to run manually and locally on your computer instead of as a container, please check
